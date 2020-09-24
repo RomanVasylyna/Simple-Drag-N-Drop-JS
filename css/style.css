@@ -1,0 +1,50 @@
+body{
+margin: 0;
+padding: 0;
+background: salmon;
+}
+
+.parent{
+  margin-top: 50px;
+}
+
+.child{
+  margin-top: 50px;
+}
+
+.empty{
+height: 170px;
+width: 170px;
+background: #fff;
+display: inline-block;
+margin-right: 20px;
+cursor: pointer;
+font-weight: bold;
+color: rgb(9, 41, 255);
+}
+
+.fill{
+height: 170px;
+width: 170px;
+cursor: pointer;
+display: inline-block;
+margin-right: 20px;
+}
+
+.hold{
+border: 4px solid #ccc;
+}
+
+.hovered{
+background: #f4f4f4;
+border : 4px dashed green;
+}
+
+.incorrect{
+  border : 4px dashed green;
+}
+
+
+.invisible{
+display: none;
+}
